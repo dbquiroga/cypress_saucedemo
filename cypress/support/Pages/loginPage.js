@@ -7,6 +7,9 @@ class Login {
 
   login(username, password) {
     // aca iria las instrucciones
+    cy.get(this.loginInput).type(username);
+    cy.get(this.passInput).type(password);
+    cy.get(this.loginBtn).click();
   }
 }
 
