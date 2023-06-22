@@ -2,5 +2,9 @@
   "sucess_user": {
     "usuario": "standard_user",
     "password": "secret_sauce"
+  },
+  "user_inexistente": {
+    "usuario": "kakakriina",
+    "password": "que_tal"
   }
 }
